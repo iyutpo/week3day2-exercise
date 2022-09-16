@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Third web page</title>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        
+        <!-- Container -->
+        <div id="container">
+
+            <header style="font-size: 60px; color: #fff">My web site brand</header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="page2.html">About</a></li>
+                    <li><a href="page4.html">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </nav>
+
+            <main>
+                <form action="/signup" method="post">
+                    <fieldset>
+                        <legend>User personal information</legend>
+                        <label>Enter your full name</label>
+                        <input type="text" name="name">
+                        <label>Enter your email</label>
+                        <input type="email" name="email">
+                        <label>Enter your phone</label>
+                        <input type="text" name="phone">
+                        <label>Select your gender</label>
+                        <input type="radio" name="gender" value="male">male
+                        <input type="radio" name="gender" value="female">female
+                        <label>How should we contact you?</label>
+                        <select>
+                            <option>Email</option>
+                            <option>Phone</option>
+                        </select>
+                        Tell us the reason of your visit today:
+                        <textarea cols="30" rows="5"></textarea>
+                        <input type="submit" value="sign-up">
+                    </fieldset>
+                </form>
+            </main>
+
+        </div>
+    </body>
+</html>
+
+
